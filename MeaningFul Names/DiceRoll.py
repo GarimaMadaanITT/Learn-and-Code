@@ -1,28 +1,21 @@
 import random
- 
 def diceRoll(numberOfSides):
-
-    result = random.randint(1, number_of_sides)
-
-    return result
  
+    diceValue = random.randint(1, numberOfSides)
+    return diceValue
+
 def main():
-
-    diceSides = 6
-
-    rolling = True
-
-    while rolling:
-
-        userInput = input("Ready to roll? Enter Q to Quit: ")
-
-        if userInput.lower() != "q":
-
-            diceResult = diceRoll(diceSides)
-
-            print("You have rolled a", diceResult)
-
-        else:
-
-            rolling = False
  
+    diceFaces = 6
+    isDiceRolling = True
+ 
+    while isDiceRolling:
+ 
+        userInput = input("Ready to roll? Enter Q to Quit: ")
+ 
+        if userInput.lower() != "q":
+            diceResult = diceRoll(diceFaces)
+            print("You have rolled a", diceResult)
+ 
+        else:
+            isDiceRolling = False
