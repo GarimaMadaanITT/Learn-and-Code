@@ -1,0 +1,78 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# Visual Studio files
+# =========================
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+*.pdb
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Rider / ReSharper
+# =========================
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+.nuget/
+.nuget/packages/
+
+# =========================
+# Test results & coverage
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Logs & temp files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Publish output
+# =========================
+publish/
