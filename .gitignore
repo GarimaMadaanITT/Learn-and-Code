@@ -1,0 +1,52 @@
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+# Build folders
+
+bin/
+obj/
+Debug/
+Release/
+
+# .NET Core / .NET
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Rider / VS Code (optional)
+
+# =========================
+
+.idea/
+.vscode/
+
+# NuGet
+
+*.nupkg
+packages/
+.nuget/
