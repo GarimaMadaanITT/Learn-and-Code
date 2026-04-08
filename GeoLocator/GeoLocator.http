@@ -1,0 +1,6 @@
+@GeoLocator_HostAddress = http://localhost:5242
+
+GET {{GeoLocator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
