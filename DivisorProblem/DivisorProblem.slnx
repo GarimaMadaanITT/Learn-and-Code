@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DivisorProblem/DivisorProblem.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DivisorProblem.Tests/DivisorProblem.Tests.csproj" />
+  </Folder>
+</Solution>
